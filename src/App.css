@@ -1,0 +1,76 @@
+/* CSS DAS PAGINAS DE GAME CRIADAS */
+
+.cabecalho {
+  background-color: #343232;
+  color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  height: 70px;
+}
+.bi:hover {
+  text-decoration: underline;
+}
+
+.cabecalho:hover {
+  /* mudar o topo de cor quando mouse passar em cima*/
+  background-color: gray;
+}
+.store {
+  color: #0d6efd;
+}
+.maior-idade {
+  color: white;
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+  padding-top: 7px;
+  font-size: 25px;
+  justify-content: center;
+  display: inline;
+}
+.maior-idade:hover {
+  transform: translateY(-5px);
+  transition: transform 0.9s ease;
+  box-shadow: 5px 5px 5px 5px rgb(39, 38, 38);
+}
+.texto-god {
+  display: inline;
+  font-family: cursive;
+  color: white;
+  font-size: 10px;
+  padding: 10px;
+}
+.god-of-war {
+  box-shadow: 1px 1px 1px 1px rgb(39, 38, 38);
+  border-radius: 5px;
+}
+.meio-footer {
+  background-color: #1f385e;
+  color: white;
+  justify-content: center;
+}
+.jogo {
+  background-color: #081933;
+}
+.descricao {
+  color: wheat;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 7px;
+  border: 2px solid #081933;
+}
+
+.nome-jogo {
+  color: white;
+  margin-top: 7px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.carcteristica {
+  color: gray;
+}
+.botao-preco {
+  color: white;
+  background-color: #1f385e;
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 50px;
+}
