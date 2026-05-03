@@ -1,21 +1,52 @@
-/* CSS DAS PAGINAS DE GAME CRIADAS */
-
 .cabecalho {
   background-color: #343232;
   color: white;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
   z-index: 1000;
   height: 70px;
+  padding: 5px;
 }
-.anuncio-titulo:hover{
-      transform: translateY(-5px);
+.hero-text {
+    font-family: 'Arial', sans-serif;
+  position: absolute;
+  background-color: rgb(39, 38, 38);
+  border-radius: 5px;
+  padding: 15px;
+  top: 20%;
+  left: 55%;
+  transform: translateY(-50%);
+  color: rgb(255, 252, 252);
+}
+.valor{
+    font-size: 25px;
+    position: absolute;
+    border-radius: 10px;
+    padding: 15px;
+    top: 50%;
+    left: 60%;
+    transform: translateY(-50%);
+    box-shadow: 5px 5px 5px 5px rgb(39, 38, 38);
+}
+.improviso:hover{
+    transform: translateY(-5px);
+    transition: transform 0.9s ease;
+    box-shadow: 5px 5px 5px 5px;
+}
+.preco{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(78, 104, 233);
+    font-size: 40px;
+    padding: 10px;
+}
+
+.anuncio-titulo:hover {
+  transform: translateY(-5px);
   transition: transform 0.9s ease;
-  box-shadow: 5px 5px 5px 5px rgb(39, 38, 38);   
+  box-shadow: 5px 5px 5px 5px rgb(39, 38, 38);
 }
 .bi:hover {
   text-decoration: underline;
 }
-
 .cabecalho:hover {
   /* mudar o topo de cor quando mouse passar em cima*/
   background-color: gray;
@@ -23,9 +54,11 @@
 .store {
   color: #0d6efd;
 }
+
 .maior-idade {
-  color: white;
+  color: rgb(255, 255, 255);
   border-radius: 3px;
+  margin-left: 100px;
   width: 50px;
   height: 50px;
   padding-top: 7px;
@@ -41,7 +74,7 @@
 .texto-god {
   display: inline;
   font-family: cursive;
-  color: white;
+  color: rgb(12, 11, 11);
   font-size: 10px;
   padding: 10px;
 }
@@ -54,8 +87,8 @@
   color: white;
   justify-content: center;
 }
-.cor-meio{
- color: rgb(185, 170, 170);
+.cor-meio {
+  color: rgb(185, 170, 170);
 }
 .jogo {
   background-color: #081933;
@@ -64,7 +97,6 @@
   color: wheat;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   border-radius: 7px;
-  border: 2px solid #081933;
 }
 
 .nome-jogo {
@@ -73,6 +105,7 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .carcteristica {
+  margin-left: 100px;
   color: gray;
 }
 .botao-preco {
@@ -82,21 +115,37 @@
   padding: 5px;
   margin-right: 50px;
 }
-.conteudo-baixo{
-  background-color:#081933;
+.conteudo-baixo {
+  background-color: #081933;
   padding: 15px;
 }
-.game{
+.game {
   color: white;
 }
-.fixo-baixo{
+.fixo-baixo {
   color: rgb(255, 250, 250);
 }
-.p-fixo-baixo{
-    color: rgb(194, 185, 185);
-
+.p-fixo-baixo {
+  color: rgb(194, 185, 185);
 }
-.direitos{
-    color: rgb(226, 218, 218);
+.direitos {
+  color: rgb(226, 218, 218);
+}
 
+.hero {
+  position: relative;
+}
+.hero img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 18px;
 }
