@@ -35,3 +35,5 @@ resident.html
 vite.config.js
 README.md
 eslint.config.js
+package.json
+package-lock.json
