@@ -9,13 +9,19 @@
 .hero-text {
     font-family: 'Arial', sans-serif;
   position: absolute;
-  background-color: rgb(39, 38, 38);
+  background-color: rgba(0, 0, 0, 0.4);
   border-radius: 5px;
   padding: 15px;
   top: 20%;
   left: 55%;
   transform: translateY(-50%);
   color: rgb(255, 252, 252);
+    box-shadow: 100px 15px 20px 25px rgba(0, 0, 0, 0.5);
+}
+.hero-text:hover{
+  transform: translateY(-5px);
+    transition: transform 0.9s ease;
+    box-shadow: 5px 5px 5px 5px;
 }
 .valor{
     font-size: 25px;
@@ -121,6 +127,7 @@
 }
 .game {
   color: white;
+  align-items: start;
 }
 .fixo-baixo {
   color: rgb(255, 250, 250);

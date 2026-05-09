@@ -4,12 +4,12 @@ import { useState } from "react";
 // import heroImg from "./assets/hero.png";
 import "./App.css";
 import "./components/bootstrap-5.3.8/bootstrap-5.3.8-dist/css/bootstrap.min.css";
-import Header from "./components/header.jsx";
-import GodofWar from "./components/godofwar.jsx";
-import Matador from "./components/matador.jsx";
-import ConteudoMeio from "./components/conteudomeio.jsx";
-import Footer from "./components/footer.jsx";
-import Botao from "./components/botaopreco.jsx";
+import Header from './components/Header/header.jsx';
+import Footer from './components/Footer/footer.jsx';
+import Conteudo from './components/Informacoes/conteudomeio.jsx';
+import ConteudoMeio from "./components/Informacoes/conteudomeio.jsx";
+import KratosImagem from "./pages/imagemKratos.jsx";
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,12 +17,14 @@ function App() {
   return (
     <>
       <h1> Digital College </h1>
-      <Botao />
       <Header />
-      <GodofWar />
+      {/* <KratosImagem /> */}
       <ConteudoMeio />
-      <Matador />
       <Footer />
+
+
+
+
     </>
   );
 }

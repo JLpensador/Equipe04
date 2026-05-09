@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Ignorar arquivo específico
+.assassino.html
+.eslint.config.js
+.gta.html
+.index.css
+.manicraft.html
+.resident.html
+imagens
