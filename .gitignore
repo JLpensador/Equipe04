@@ -39,4 +39,4 @@ package.json
 package-lock.json
 
 # ignore pasta public
-public/*
+public/
