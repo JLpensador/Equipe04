@@ -23,16 +23,15 @@ dist-ssr
 *.sln
 *.sw?
 
-# Ignorar arquivo específico
-*
-.assassino.html
-.eslint.config.js
-.gta.html
-.index.css
-.manicraft.html
-.resident.html
-imagens
 
 !.components
 !.pages
 !.public
+assassino.html
+gta.html
+index.css
+manicraft.html
+resident.html
+vite.config.js
+README.md
+eslint.config.js
