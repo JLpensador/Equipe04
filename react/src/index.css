@@ -1,0 +1,49 @@
+:root {
+  /* Cores Principais */
+  --bg-main: #0b0515;
+  --bg-surface: #160d24;
+  --brand-purple: #8b5cf6;
+  --text-secondary: #9ca3af;
+  --text-primary: #ffffff;
+
+  --purple-glow-15: rgba(139, 92, 246, 0.15);
+  --purple-glow-30: rgba(139, 92, 246, 0.3);
+  --purple-glow-50: rgba(139, 92, 246, 0.5);
+  --black-alpha-10: rgba(0, 0, 0, 0.1);
+
+  --bg-almost-black: #030213;
+  --danger-red: #d4183d;
+}
+
+body {
+  background-color: var(--bg-main) !important;
+  color: var(--text-primary) !important;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+
+  background-image:
+    radial-gradient(
+      circle at top left,
+      var(--purple-glow-15) 0%,
+      transparent 60%
+    ),
+    radial-gradient(
+      circle at top right,
+      var(--black-alpha-10) 0%,
+      transparent 50%
+    ),
+    linear-gradient(to bottom, var(--bg-surface) 0%, var(--bg-main) 80%) !important;
+
+  background-attachment: fixed !important;
+  min-height: 100vh;
+}
+
+.text-purple {
+  color: var(--brand-purple) !important;
+}
+
+.text-gray-secondary {
+  color: var(--text-secondary) !important;
+}
