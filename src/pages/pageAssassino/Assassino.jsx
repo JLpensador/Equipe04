@@ -1,5 +1,5 @@
-import img from "../../assets/ASSASIN.jpg";
 
+import img from "../../assets/ASSASIN.jpg";
 
 function Assassino() {
   return (
@@ -21,8 +21,6 @@ function Assassino() {
 
         <div className="position-absolute bottom-0 start-0 end-0 p-3 p-sm-4 bg-dark bg-opacity-75 text-white">
           <p
-            // id="desenvolvidoPor"
-            // onmouseout={desenvolvidoPor()}
             class="improviso mb-0 small"
             style={
               'color: rgb(152, 133, 133)',
@@ -31,8 +29,7 @@ function Assassino() {
             }
           >
             <strong
-              id="desenvolvidoPor"
-              onmouseout={desenvolvidoPor()}
+              
               className="preco d-block d-sm-inline fs-6 fs-sm-5"
               style={{color: 'white', 'font-size': '25px'}}
             >
