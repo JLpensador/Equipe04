@@ -1,4 +1,4 @@
-import img from "../../img/THE WITCHER.png";
+import img from "../../assets/THE WITCHER.png";
 
 function Witcher() {
   return (

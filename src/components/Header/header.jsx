@@ -2,7 +2,7 @@ function Header() {
   return (
     <header
       id="cabecalho"
-      onmouseout="Cabecalho()"
+      onmouseout={Cabecalho()}
       class="cabecalho container-fluid p-2 p-sm-3 p-md-4 sticky-top"
     >
       <div class="d-flex flex-column flex-md-row justify-content-between align-items-end gap-2">

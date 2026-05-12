@@ -1,4 +1,4 @@
-import img from "../../img/kratos e cronos.png";
+import img from "../../assets/kratos e cronos.png";
 
 function KratosImagem() {
   return (
