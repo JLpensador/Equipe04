@@ -9,6 +9,7 @@ import Sobreojogo from "./pages/Sobre o Jogo/Sobreojogo";
 function App() {
   return (
     <div className="min-vh-100 pb-4">
+      <h1>God of War Remastered</h1>
       {/* <Header />
 
       <main className="container text-center mt-5 pt-4">
