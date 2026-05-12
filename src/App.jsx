@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Assassino from './pages/pageAssassino/Assassino.jsx'
-import ImagemKratos from './pages/pageKratos/imagemKratos'
+import KratosImagem from './pages/pageKratos/KratosImagem.jsx'
 import Witcher from './pages/theWitcher/Witcher'
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <BrowserRouter>
       <h1 style={'color: white;'}> olá miguelzinn </h1>
       <Assassino />
+      <KratosImagem />
       <Routes>
         {/* <Route path="/" element={<Assassino />} />
         <Route path="/kratos" element={<ImagemKratos />} />
