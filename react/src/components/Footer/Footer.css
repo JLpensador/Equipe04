@@ -1,6 +1,4 @@
-
- 
-.pagination-dots .dot {
+/* .pagination-dots .dot {
   display: inline-block;
   width: 8px;
   height: 8px;
@@ -13,4 +11,17 @@
 .pagination-dots .dot.active {
   background-color: var(--brand-purple);
   opacity: 1;
+} */
+
+.custom-footer {
+  background-color: var(--bg-card, #0a0514);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+
+}
+
+.footer-text {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  letter-spacing: 0.05px;
+  font-weight: 500;
 }
