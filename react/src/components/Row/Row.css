@@ -1,0 +1,14 @@
+/* cartao */
+.custom-card {
+  background-color: var(--bg-surface) !important;
+  border-radius: 12px !important;
+  border: 1px solid var(--black-alpha-10) !important;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px var(--purple-glow-15);
+}
