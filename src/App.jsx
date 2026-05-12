@@ -6,7 +6,7 @@ import Witcher from "./pages/theWitcher/Witcher";
 function App() {
   return (
     <>
-        {/* <h1> olá miguelzinn </h1>
+         <h1> olá miguelzinn </h1>
         {/* <Assassino />  */}
         {/* <KratosImagem />  */}
         <Router>
