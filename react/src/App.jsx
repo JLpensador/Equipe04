@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import Row from "./components/Row/Row";
 import Footer from "./components/Footer/Footer";
 import Godofwar from './pages/Godofwar';
+import Sobreojogo from "./pages/Sobre o Jogo/Sobreojogo";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Footer /> */}
       
       <Godofwar />
+      <Sobreojogo />
     </div>
 
   );
