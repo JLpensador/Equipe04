@@ -16,7 +16,7 @@ function Godofwar() {
           <h1 className="display-6 fs-4 fs-sm-3 fs-md-2 fw-bold mb-2">
             God of War Remastered
           </h1>
-          <p className="fs-6 fs-sm-5 fs-md-4 mb-0">Uma jornada épica te espera</p>
+          <p className="fs-6 fs-sm-5 fs-md-4 mb-0">Uma jornada épica te espera.</p>
         </div>
 
         <div className="position-absolute bottom-0 start-0 end-0 p-3 p-sm-4 bg-dark bg-opacity-75 text-white">
