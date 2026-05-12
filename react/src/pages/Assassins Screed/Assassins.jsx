@@ -1,9 +1,11 @@
 
 import img from '../../assets/ASSASIN.jpg';
 import Conteudo from '../Conteudo/Conteudo';
+import Footer from '../components/Footer/Footer';
 
 function Assassino() {
   return (
+    // imagem inicio cabeça da página
     <div className="container-fluid">
       <div className="hero position-relative overflow-hidden">
         <img
@@ -45,8 +47,11 @@ function Assassino() {
           </button>
         </div>
       </div>
-
+{/* informações embaixo da imagem */}
       <Conteudo />
+{/* e o footer */}
+<Footer />
+
 
     </div>
 
