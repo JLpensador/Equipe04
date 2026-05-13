@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Header from "./components/Header/header.jsx";
 import Assassino from "./pages/pageAssassino/Assassino.jsx";
 import KratosImagem from "./pages/pageKratos/KratosImagem.jsx";
 import Witcher from "./pages/theWitcher/Witcher";
@@ -6,9 +7,9 @@ import Witcher from "./pages/theWitcher/Witcher";
 function App() {
   return (
     <>
-      <h1> olá miguelzinn </h1>
-      {/* <Assassino />  */}
-      {/* <KratosImagem />  */}
+    <Header />
+
+    
       <BrowserRouter>
         <ul style={{ display: 'flex', gap: '20px', listStyle: 'none', padding: '10px' }}>
           <li>
@@ -36,6 +37,13 @@ function App() {
           </Routes>
         
       </BrowserRouter>
+
+
+      {/* <h1> olá miguelzinn </h1> */}
+      {/* <Assassino />  */}
+      {/* <KratosImagem />  */}
+
+
     </>
   );
 }

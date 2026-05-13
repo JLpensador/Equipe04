@@ -1,10 +1,13 @@
 import img from "../../assets/kratos e cronos.png";
-// import Sobreojogo from "../../components/SobreOjogo/Sobre.jsx";
+import Header from '../../components/Header/header.jsx';
+import Sobreojogo from '../../components/SobreOjogo/Sobre.jsx';
 import ConteudoMeio from "../../components/Informacoes/ConteudoMeio.jsx";
 import Footer from "../../components/Footer/footer.jsx";
+import Botao from "../../components/BotaoPreco/botao.jsx";
 
 function KratosImagem() {
   return (
+    <>
     <div className="container-fluid">
       <div className="hero position-relative overflow-hidden">
         <img
@@ -13,7 +16,7 @@ function KratosImagem() {
           className="w-100 d-block"
           style={{height: '60vh', minheight: '350px', maxheight: '75vh', objectfit: 'cover', objectposition: 'center',}}
         />
-
+<Botao />
         <div className="hero-text position-absolute top-50 start-50 translate-middle text-white text-shado z-2">
           <h1 className="display-6 fs-4 fs-sm-3 fs-md-2 fw-bold mb-2">
             God of War Remastered
@@ -41,10 +44,11 @@ function KratosImagem() {
           </button>
         </div>
       </div>
-      {/* <Sobreojogo /> */}
+      <Sobreojogo />
       <ConteudoMeio />
       <Footer />
     </div>
+    </>
   );
 }
 

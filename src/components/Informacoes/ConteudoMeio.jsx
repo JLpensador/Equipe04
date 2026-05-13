@@ -1,3 +1,4 @@
+import './bootstrap-5.3.8/bootstrap-5.3.8-dist/css/bootstrap.min.css'
 import './Conteudo.css'
 
 function ConteudoMeio() {

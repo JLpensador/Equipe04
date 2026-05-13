@@ -1,11 +1,12 @@
-import img from "../../img/kratos e cronos.png";
-import "./Sobre.css";
+import './bootstrap-5.3.8/bootstrap-5.3.8-dist/css/bootstrap.min.css'
+import img from "../../assets/kratos e cronos.png";
+import "./Sobreojogo.css";
 
 function Sobreojogo() {
   return (
     <div className="descricao col-12 col-md-12 col-lg-4">
       <div className="ps-0 ps-lg-3">
-        <img src={img} alt="capa do jogo" class="capa-jogo img-fluid" />
+        <img src={img} alt="capa do jogo" className="capa-jogo img-fluid" />
 
         <h6
           className="text-muted text-uppercase ls-sm fw-bold mb-2"
