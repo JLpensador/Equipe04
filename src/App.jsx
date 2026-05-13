@@ -7,7 +7,8 @@ import Witcher from "./pages/theWitcher/Witcher";
 function App() {
   return (
     <>
-    <Header />
+      <h1> olá miguelzinn </h1>
+    {/* <Header /> */}
 
     
       <BrowserRouter>
@@ -39,7 +40,6 @@ function App() {
       </BrowserRouter>
 
 
-      {/* <h1> olá miguelzinn </h1> */}
       {/* <Assassino />  */}
       {/* <KratosImagem />  */}
 

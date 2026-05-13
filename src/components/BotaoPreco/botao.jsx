@@ -6,8 +6,8 @@ function Botao() {
     <>
       {/* <!-- Preço e Botão --> */}
 
-      <div className="col-8 col-sm-6 col-md-7 mx-auto mx-sm-0 text-center">
-        <div className="bg-dark bg-opacity-75 p-4 p-sm-5 rounded-4 shadow-lg h-100 d-flex flex-column justify-content-center border border-secondary-subtlee">
+      <div className="col-6 col-sm-6 col-md-7 mx-auto mx-sm-0 text-center">
+        <div className="bg-dark bg-opacity-35 p-4 p-sm-5 rounded-4 shadow-lg h-100 d-flex flex-column justify-content-center border border-secondary-subtlee">
           <p
             className="improviso mb-3 mb-md-4"
             style={{color: 'white', fontSize: '25px', boxShadow: '5px 5px 5px 5px'}}
