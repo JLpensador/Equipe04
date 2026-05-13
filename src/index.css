@@ -13,6 +13,10 @@
 
   --bg-almost-black: #030213;
   --danger-red: #d4183d;
+
+  /*sobre o conteudo react não sumir*/
+  position: relative;
+  z-index: 1;
 }
 
 body {
@@ -23,21 +27,25 @@ body {
     -apple-system,
     sans-serif;
 
-  background-image:
-    radial-gradient(
-      circle at top left,
-      var(--purple-glow-15) 0%,
-      transparent 60%
-    ),
-    radial-gradient(
-      circle at top right,
-      var(--black-alpha-10) 0%,
-      transparent 50%
-    ),
-    linear-gradient(to bottom, var(--bg-surface) 0%, var(--bg-main) 80%) !important;
-
-  background-attachment: fixed !important;
+  background-image: url("/jogo1.png");
+  margin: 0;
+  padding: 0;
   min-height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
 }
 
 .text-purple {
