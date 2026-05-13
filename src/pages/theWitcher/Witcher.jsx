@@ -1,4 +1,7 @@
 import img from "../../assets/THE WITCHER.png";
+// import Sobreojogo from "../../components/SobreOjogo/Sobre.jsx";
+import ConteudoMeio from "../../components/Informacoes/ConteudoMeio";
+import Footer from "../../components/Footer/footer";
 
 function Witcher() {
   return (
@@ -21,19 +24,17 @@ function Witcher() {
         <div className="position-absolute bottom-0 start-0 end-0 p-3 p-sm-4 bg-dark bg-opacity-75 text-white">
           <p
             id="desenvolvidoPor"
-            onmouseout="desenvolvidoPor()"
-            class="improviso mb-0 small"
-            style="
-              color: rgb(152, 133, 133);
-              font-size: 20px;
-              box-shadow: 5px 5px 5px 5px;
-            "
+            className="improviso mb-0 small"
+            style={{
+              color: 'rgb(152, 133, 133)',
+              fontSize: '20px',
+              boxShadow: '5px 5px 5px 5px'
+            }}
           >
             <strong
               id="desenvolvidoPor"
-              onmouseout="desenvolvidoPor()"
               className="preco d-block d-sm-inline fs-6 fs-sm-5"
-              style="color: white; font-size: 25px"
+              style={{ color: 'white', fontSize: '25px' }}
             >
               Desenvolvido por : Mojang Studios.
             </strong>
@@ -43,6 +44,9 @@ function Witcher() {
           </button>
         </div>
       </div>
+      {/* <Sobreojogo /> */}
+      <ConteudoMeio />
+      <Footer />
     </div>
   );
 }

@@ -6,23 +6,6 @@
   height: 70px;
   padding: 5px;
 }
-.hero-text {
-    font-family: 'Arial', sans-serif;
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
-  padding: 15px;
-  top: 20%;
-  left: 55%;
-  transform: translateY(-50%);
-  color: rgb(255, 252, 252);
-    box-shadow: 100px 15px 20px 25px rgba(0, 0, 0, 0.5);
-}
-.hero-text:hover{
-  transform: translateY(-5px);
-    transition: transform 0.9s ease;
-    box-shadow: 5px 5px 5px 5px;
-}
 .valor{
     font-size: 25px;
     position: absolute;
@@ -32,11 +15,6 @@
     left: 60%;
     transform: translateY(-50%);
     box-shadow: 5px 5px 5px 5px rgb(39, 38, 38);
-}
-.improviso:hover{
-    transform: translateY(-5px);
-    transition: transform 0.9s ease;
-    box-shadow: 5px 5px 5px 5px;
 }
 .preco{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -88,22 +66,14 @@
   box-shadow: 1px 1px 1px 1px rgb(39, 38, 38);
   border-radius: 5px;
 }
-.meio-footer {
-  background-color: #1f385e;
-  color: white;
-  justify-content: center;
-}
+
 .cor-meio {
   color: rgb(185, 170, 170);
 }
 .jogo {
   background-color: #081933;
 }
-.descricao {
-  color: wheat;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  border-radius: 7px;
-}
+
 
 .nome-jogo {
   color: white;
@@ -121,23 +91,9 @@
   padding: 5px;
   margin-right: 50px;
 }
-.conteudo-baixo {
-  background-color: #081933;
-  padding: 15px;
-}
-.game {
-  color: white;
-  align-items: start;
-}
-.fixo-baixo {
-  color: rgb(255, 250, 250);
-}
-.p-fixo-baixo {
-  color: rgb(194, 185, 185);
-}
-.direitos {
-  color: rgb(226, 218, 218);
-}
+
+
+
 
 .hero {
   position: relative;

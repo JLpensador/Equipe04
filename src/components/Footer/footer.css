@@ -1,0 +1,17 @@
+.conteudo-baixo {
+  background-color: #081933;
+  padding: 15px;
+}
+.game {
+  color: white;
+  align-items: start;
+}
+.fixo-baixo {
+  color: rgb(255, 250, 250);
+}
+.p-fixo-baixo {
+  color: rgb(194, 185, 185);
+}
+.direitos {
+  color: rgb(226, 218, 218);
+}

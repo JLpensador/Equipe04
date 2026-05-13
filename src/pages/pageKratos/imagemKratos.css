@@ -20,3 +20,12 @@
     transition: transform 0.9s ease;
     box-shadow: 5px 5px 5px 5px;
 }
+.preco{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(78, 104, 233);
+    font-size: 40px;
+    padding: 10px;
+}
+.bi:hover {
+  text-decoration: underline;
+}

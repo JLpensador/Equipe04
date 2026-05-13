@@ -1,6 +1,7 @@
 import img from "../../img/kratos e cronos.png";
+import "./Sobre.css";
 
-function GodofWar() {
+function Sobreojogo() {
   return (
     <div className="descricao col-12 col-md-12 col-lg-4">
       <div className="ps-0 ps-lg-3">
@@ -34,4 +35,4 @@ function GodofWar() {
   );
 }
 
-export default GodofWar;
+export default Sobreojogo;
