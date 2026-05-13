@@ -1,6 +1,7 @@
 .conteudo-baixo {
   background-color: #081933;
   padding: 15px;
+  border-radius: 5px;
 }
 .game {
   color: white;
