@@ -7,7 +7,7 @@ function Sobreojogo() {
   return (
     <div className="descricao col-12 col-md-12 col-lg-4 p-2">
       <div className="row">
-      <div className="col-6 ps-2 ps-lg-3">
+      <div className="col-6 col-md-6 col-sm-6 ps-2 ps-lg-3">
         <img src={img} alt="capa do jogo" className="capa-jogo img-fluid" />
         <h6
           className="text-muted text-uppercase ls-sm fw-bold mb-2"
@@ -15,7 +15,7 @@ function Sobreojogo() {
         >
         </h6>
         </div>
-        <div className="col-6 ps-2 ps-lg-3" style={{color: 'tomato'}}>
+        <div className="col-6 col-md-6 col-sm-6 ps-2 ps-lg-3" style={{color: 'tomato'}}>
           Sobre o jogo:
         <h2 className="h1 h2-md fw-bold mb-3 lh-tight " style={{color: 'tomato'}}>
           Uma aventura que marcou gerações.
