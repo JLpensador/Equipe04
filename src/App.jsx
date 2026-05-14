@@ -3,10 +3,12 @@ import Header from "./components/Header/header.jsx";
 import Assassino from "./pages/pageAssassino/Assassino.jsx";
 import KratosImagem from "./pages/pageKratos/KratosImagem.jsx";
 import Witcher from "./pages/theWitcher/Witcher";
+import './App.css'
 
 function App() {
   return (
     <>
+   
       <h1> olá miguelzinn </h1>
     {/* <Header /> */}
 
