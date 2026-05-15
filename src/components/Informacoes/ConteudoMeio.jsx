@@ -3,7 +3,7 @@ import './Conteudo.css'
 
 function ConteudoMeio() {
   return (
-    // <!-- INFORMAÇÕES EM BAIXO DA IMAGEM -->
+    // <!-- INFORMAÇÕES EM BAIXO DA IMAGEM, EM CIMA DO FOOTER -->
     <div className="container-fluid meio-footer  py-sm-5 py-md-5 bg-dark bg-opacity-50 border-top border-bottom border-dark-subtle">
       <div className="row  g-3 g-sm-4 text-center">
         <div className="col-6 col-md-3 px-3 px-sm-4">

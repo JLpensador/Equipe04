@@ -1,10 +1,13 @@
-
 import img from "../../assets/ASSASIN.jpg";
+import Header from '../../components/Header/header.jsx'
+import Sobreojogo from "../../components/SobreOjogo/SobreAssassino.jsx";
 import ConteudoMeio from "../../components/Informacoes/ConteudoMeio";
 import Footer from "../../components/Footer/footer";
 
 function Assassino() {
   return (
+    <>
+    <Header />
     <div className="container-fluid">
       <div className="hero position-relative overflow-hidden">
         <img
@@ -35,17 +38,17 @@ function Assassino() {
               className="preco d-block d-sm-inline fs-6 fs-sm-5"
               style={{color: 'white', 'fontSize': '25px'}}
             >
-              Desenvolvido por : Mojang Studios.
+              Desenvolvido por : Gameloft.
             </strong>
           </p>
-          <button>
-            <i className="bi bi-cart"></i> Adicionar ao carrinho
-          </button>
+          
         </div>
       </div>
+      <Sobreojogo />
       <ConteudoMeio />
       <Footer />
     </div>
+    </>
   );
 }
 
