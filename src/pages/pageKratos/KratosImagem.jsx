@@ -1,5 +1,6 @@
 import img from "../../assets/kratos e cronos.png";
 import Header from "../../components/Header/header.jsx";
+import Emcimadosobre from '../../components/Informacoes/Emcimadosobre.jsx';
 import Sobreojogo from "../../components/SobreOjogo/SobreGod.jsx";
 import ConteudoMeio from "../../components/Informacoes/ConteudoMeio.jsx";
 import Footer from "../../components/Footer/footer.jsx";
@@ -48,6 +49,7 @@ function KratosImagem() {
             </p>
           </div>
         </div>
+        <Emcimadosobre />
         <Sobreojogo />
         <ConteudoMeio />
         <Footer />

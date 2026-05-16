@@ -1,5 +1,6 @@
 import img from "../../assets/ASSASIN.jpg";
 import Header from '../../components/Header/header.jsx'
+import Emcimadosobre from '../../components/Informacoes/Emcimadosobre.jsx';
 import Sobreojogo from "../../components/SobreOjogo/SobreAssassino.jsx";
 import ConteudoMeio from "../../components/Informacoes/ConteudoMeio";
 import Footer from "../../components/Footer/footer";
@@ -44,6 +45,7 @@ function Assassino() {
           
         </div>
       </div>
+      <Emcimadosobre />
       <Sobreojogo />
       <ConteudoMeio />
       <Footer />
