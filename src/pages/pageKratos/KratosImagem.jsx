@@ -9,6 +9,7 @@ import Botao from "../../components/BotaoPreco/botaoGod.jsx";
 function KratosImagem() {
   return (
     <>
+        <button onClick={()=>('acao')} />
       <Header />
       <div className="container-fluid">
         <div className="hero position-relative overflow-hidden">

@@ -5,6 +5,8 @@ import Botao from "../BotaoPreco/botaoAssassin";
 
 function Sobreojogo() {
   return (
+  <>
+  <button onClick = {()=>('rpg')} />
     <div className="container">
       <div className="row">
         <div className="descricao col-6 col-md-6 col-lg-6 p-2">
@@ -42,6 +44,7 @@ function Sobreojogo() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

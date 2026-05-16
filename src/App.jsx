@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { useState } from 'react'
 import Header from "./components/Header/header.jsx";
 import Assassino from "./pages/pageAssassino/Assassino.jsx";
 import KratosImagem from "./pages/pageKratos/KratosImagem.jsx";
@@ -7,13 +8,18 @@ import Rotas from "./routes/Rotas.jsx";
 import "./App.css";
 
 function App() {
+  // let [jogo, setJogo] = useState('')
+
   return (
     <>
-      {/* <h1> olá miguelzinn </h1> */}
-      {/* <Header /> */}
+{/* <button onClick={()=> setJogo('rpg')}> rpg </button>
+  {jogo =='rpg' && <Assassino />}
 
-      {/* <Assassino />  */}
-      {/* <KratosImagem />  */}
+<button onClick={()=> setJogo('acao')}> acao </button>
+{jogo =='acao' && <KratosImagem />}
+
+<button onClick={()=> setJogo('aventura')}> aventura </button>
+{jogo =='aventura' && <Witcher />} */}
 
       <BrowserRouter>
         <ul
@@ -43,6 +49,7 @@ function App() {
         <Rotas />
       </BrowserRouter>
     </>
+
   );
 }
 

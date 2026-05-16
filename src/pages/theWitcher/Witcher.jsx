@@ -1,4 +1,5 @@
 import img from "../../assets/THE WITCHER.png";
+import Header from "../../components/Header/header.jsx";
 import Emcimadosobre from '../../components/Informacoes/Emcimadosobre.jsx';
 import Sobreojogo from "../../components/SobreOjogo/SobreWitcher.jsx";
 import ConteudoMeio from "../../components/Informacoes/ConteudoMeio";
@@ -6,6 +7,10 @@ import Footer from "../../components/Footer/footer";
 
 function Witcher() {
   return (
+    <>
+      <button onClick={()=>('aventura')} />
+<Header />
+    
     <div className="container-fluid">
       <div className="hero position-relative overflow-hidden">
         <img
@@ -50,11 +55,12 @@ function Witcher() {
           </p>
         </div>
       </div>
-<Emcimadosobre />
+      <Emcimadosobre />
       <Sobreojogo />
       <ConteudoMeio />
       <Footer />
     </div>
+    </>
   );
 }
 

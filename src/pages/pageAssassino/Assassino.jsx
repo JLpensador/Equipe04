@@ -8,6 +8,7 @@ import Footer from "../../components/Footer/footer";
 function Assassino() {
   return (
     <>
+    <button onClick={()=>('rpg')} />
     <Header />
     <div className="container-fluid">
       <div className="hero position-relative overflow-hidden">
