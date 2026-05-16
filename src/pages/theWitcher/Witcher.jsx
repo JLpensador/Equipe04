@@ -1,4 +1,5 @@
 import img from "../../assets/THE WITCHER.png";
+import Emcimadosobre from '../../components/Informacoes/Emcimadosobre.jsx';
 import Sobreojogo from "../../components/SobreOjogo/SobreWitcher.jsx";
 import ConteudoMeio from "../../components/Informacoes/ConteudoMeio";
 import Footer from "../../components/Footer/footer";
@@ -49,6 +50,7 @@ function Witcher() {
           </p>
         </div>
       </div>
+<Emcimadosobre />
       <Sobreojogo />
       <ConteudoMeio />
       <Footer />
