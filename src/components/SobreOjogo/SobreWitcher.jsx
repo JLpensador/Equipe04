@@ -34,7 +34,7 @@ function SobreWitcher() {
             <br />
             <button className="saiba-mais btn btn-primary">
               <a
-                href="https://jogandocasualmente.com.br/revisitando-god-of-war-iii-remastered-ps4/"
+                href="https://pt.wikipedia.org/wiki/The_Witcher"
                 className="text-white text-decoration-none"
               >
                 Saiba mais

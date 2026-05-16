@@ -32,7 +32,7 @@ function Sobreojogo() {
             aparece e começa a atacar Kratos. <br /> <br />
             <button className="saiba-mais btn btn-primary">
               <a
-                href="https://jogandocasualmente.com.br/revisitando-god-of-war-iii-remastered-ps4/"
+                href="https://pt.wikipedia.org/wiki/Assassin%27s_Creed"
                 className="text-white text-decoration-none"
               >
                 Saiba mais
