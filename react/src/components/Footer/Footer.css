@@ -1,0 +1,16 @@
+
+ 
+.pagination-dots .dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: var(--text-secondary);
+  border-radius: 50%;
+  margin: 0 4px;
+  opacity: 0.5;
+}
+
+.pagination-dots .dot.active {
+  background-color: var(--brand-purple);
+  opacity: 1;
+}
