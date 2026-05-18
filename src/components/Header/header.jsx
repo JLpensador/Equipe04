@@ -28,7 +28,7 @@ function Header() {
          <button onClick={()=> setJogo('aventura')}> aventura </button>
          {jogo =='aventura' && <Witcher />} */}
 
-          <form className="d-flex flex-column flex-sm-row w-90 w-lg-auto gap-2 mb-0 mb-lg-0 ">
+          <form className="d-flex flex-column flex-sm-row w-100 w-lg-auto gap-2 mb-0 mb-lg-0 "> <h6 class="" style={{color: '#343232'}}>espaço, </h6>
             <input
               className="form-control form-control-sm flex-grow-1"
               type="search"
